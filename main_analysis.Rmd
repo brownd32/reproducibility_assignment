@@ -1,0 +1,18 @@
+---
+title: "Main Analysis"
+author: "brownd32"
+date: "23/06/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#run only once to download the data
+```{r}
+  # stroop_data <- read.table("https://raw.githubusercontent.com/Lakens/Stroop/master/stroop.txt", sep = "\t", header = TRUE)
+  # write.table(stroop_data, file = "stroop.csv", quote=F, row.names=F)
+
+stroop_data <- read.csv("stroop.csv", sep = " ", header = TRUE)
+```
+
